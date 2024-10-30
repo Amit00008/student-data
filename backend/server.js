@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 const userRoute = require("./routes/UserRoute");
 mongoconnect();
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server is running on port ${process.env.port}`);
 });
 
