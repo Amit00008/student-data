@@ -3,7 +3,7 @@
 This is a MERN stack project that includes a MongoDB database, Express.js server, React.js frontend, and Node.js backend.
 
 ## Live Demo
-Check out the live demo [here](https://51.24.5.57/).
+Check out the live demo [here](http://51.24.5.57/).
 
 ## Getting Started
 
