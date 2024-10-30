@@ -13,7 +13,7 @@ function Create() {
   const handleSubmit = async (e) => {
     e.preventDefault();
   try {
-    const res = await fetch("http://localhost:1101", {
+    const res = await fetch("https://student-data-grp5.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
