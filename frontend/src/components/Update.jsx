@@ -13,7 +13,7 @@ const Update = () => {
 const { id } = useParams();
 
 const getSingleuser = async () => {
-  const res = await fetch(`http://localhost:1101/${id}`,);
+  const res = await fetch(`https://student-data-grp5.onrender.com/${id}`,);
   const data = await res.json();
 
   if (!res.ok) {
