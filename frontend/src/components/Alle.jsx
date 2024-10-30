@@ -8,7 +8,7 @@ function Alle() {
     const [data, setData] = useState([]);
 
     const getData = async () => {
-        const res = await fetch('http://localhost:1101')
+        const res = await fetch('https://student-data-grp5.onrender.com')
         const data = await res.json();
 
         if (!res.ok){
